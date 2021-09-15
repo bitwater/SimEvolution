@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "app",
+    "contract"
+  ],
+  "scripts": {
+    "compile:contract": "yarn workspace sim-evolution-contracts run compile",
+    "test:contract": "yarn workspace sim-evolution-contracts run test",
+    "deploy:contract": "yarn workspace sim-evolution-contracts run deploy",
+    "start:app": "yarn workspace evolution-2048 run start",
+    "verify:contract": "yarn workspace sim-evolution-contracts run verify"
+  }
+}

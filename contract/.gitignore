@@ -1,0 +1,15 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+.history/
+typechain/
+soljson-v0.8.4+commit.c7e474f2.js
+.vscode/
+
+envs/
+infos/
+logs/
+coverage/
+sdk/
