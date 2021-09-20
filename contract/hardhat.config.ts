@@ -63,9 +63,20 @@ const config: HardhatUserConfig = {
       timeout: 60000,
       blockGasLimit: 60000000,
     },
+    mainnet: {
+      url: `https://mainnet.infura.io/v3/${process.env.RINKEBY_INFURA}`,
+      accounts,
+      timeout: 60000,
+    },
     rinkeby: {
       url: `https://rinkeby.infura.io/v3/${process.env.RINKEBY_INFURA}`,
       accounts,
+      timeout: 60000,
+    },
+    polygon: {
+      url: `https://polygon-mainnet.infura.io/v3/${process.env.RINKEBY_INFURA}`,
+      accounts,
+      gasPrice: 20000,
       timeout: 60000,
     },
   },
@@ -83,8 +94,8 @@ const config: HardhatUserConfig = {
     disambiguatePaths: false,
   },
   gasReporter: {
-    currency: 'CHF',
-    gasPrice: 1
+    currency: 'USD',
+    gasPrice: 20
   },
   typechain: {
     outDir: './sdk/src/typechain',

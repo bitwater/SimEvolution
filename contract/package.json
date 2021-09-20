@@ -10,7 +10,9 @@
     "test":"hardhat test",
     "coverage":"hardhat coverage",
     "deploy": "yarn hardhat compile && yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:deploy --wait-num 1 --network rinkeby | tee -a ./logs/deployToLocal.log",
-    "verify": "yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:verify --network rinkeby | tee -a ./logs/verifyRinkeby.log"
+    "verify": "yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:verify --network rinkeby | tee -a ./logs/verifyRinkeby.log",
+    "deploy:mainnet": "yarn hardhat compile && yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:deploy --wait-num 1 --network mainnet | tee -a ./logs/deployToLocal.log",
+    "deploy:polygon": "yarn hardhat compile && yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:deploy --wait-num 1 --network polygon | tee -a ./logs/deployToLocal.log"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",

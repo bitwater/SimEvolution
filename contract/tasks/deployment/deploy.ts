@@ -42,7 +42,7 @@ task(taskName, 'Deploy Evolution upgradeable')
       true
     );
     Logger.info(
-      `cellEvolution deployed at ${deployCellEvolutionResult.contractAddress}`
+      `Evolution deployed at ${deployCellEvolutionResult.contractAddress}`
     );
     const Evolution = EvolutionFactory.attach(
       deployCellEvolutionResult.contractAddress
