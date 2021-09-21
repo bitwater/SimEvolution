@@ -24,7 +24,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       <div className="header-row">
-        <h2>Evolution 2048</h2>
+        <h2>演化 2048</h2>
         <div className="header-scores">
           <div className="header-scores-score">
             <div>Score</div>
@@ -43,10 +43,10 @@ const Header: React.FC = () => {
       </div>
       <div className="header-row">
         <div>
-          Join the tiles and experience the journey of evolution
+          体验演化之旅
         </div>
         <div className="header-buttons">
-          <button onClick={reset}>New Game</button>
+          <button onClick={reset}>新游戏</button>
         </div>
       </div>
     </div>

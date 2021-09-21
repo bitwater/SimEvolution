@@ -1,5 +1,5 @@
 import React from 'react';
-import GithubCorner from 'react-github-corner';
+// import GithubCorner from 'react-github-corner';
 import './App.scss';
 
 import { animationDuration, gridGap } from './config';
@@ -19,7 +19,7 @@ const App: React.FC = () => {
         } as any
       }
     >
-      <GithubCorner target="_blank" href="https://github.com/bitwater/SimEvolution" />
+      {/* <GithubCorner target="_blank" href="https://github.com/bitwater/SimEvolution" /> */}
       <div className="page">
         <Header />
         <Board />

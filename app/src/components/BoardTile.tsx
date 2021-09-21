@@ -31,7 +31,8 @@ function valueTranslate(value: number) {
   // const names = ["2", "4", "8", "16", "32", "64", "128", "256", "512", "1024", "2048", "4096", "8192"];
   const index = Math.log2(value);
   // 科学 - 9 工业 - 10(难度可达调整) 互联网 - 11 -2048 元宇宙 - 13 - 8192
-  const names_zh = ["比特", "原子", "分子", "基因", "细胞", "物种", "语言", "文明", "科学", "工业", "互联网", "区块链", "元宇宙", "宏量子", "比特", "原子"];
+  const names_zh = ["比特", "原子", "分子", "基因", "细胞", "物种", "语言", "文化", "科学", "工业", "互联网", "区块链", "元宇宙", "宏量子", "比特", "原子"];
+  // const names_en = ["Bit", " Blockchain", "Molecule", "Gene", "Cell", "Species", "Language", "Culture", "Science", "Industry", "Internet", "Blockchain", "Metaverse", "Quantum", "Bit", "Atom"];
   return names_zh[index];
 }
 

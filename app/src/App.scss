@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 html,
@@ -113,6 +113,7 @@ button {
   line-height: 1.65;
   color: #776e65;
   font-weight: 500;
+  margin-top: 5rem;
 
   a {
     color: #776e65;
@@ -147,7 +148,7 @@ button {
     padding-bottom: 100%;
     background: #cdc1b4;
     line-height: 0;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 
     &-value {
       background: #3c3a32;
@@ -338,7 +339,7 @@ button {
 @media screen and (min-width: 610px) {
   .board {
     &-tile {
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
 
     &.board-5,

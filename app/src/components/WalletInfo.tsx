@@ -30,9 +30,9 @@ const WalletInfo: React.FC = () => {
 
   return (
     <button onClick={connectWallet}>
-      { !walletInfo && <div>Connect Wallet</div>}
+      { !walletInfo && <div>连接钱包</div>}
       {walletInfo && walletInfo.chainId !== contractChainId && (
-            <div>please switch chain to {contractChainName}</div>
+            <div>请切换到 {contractChainName} 网络</div>
       )}
       {walletInfo && walletInfo.chainId === contractChainId && (
             <div>

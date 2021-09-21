@@ -38,10 +38,10 @@ const Overlay: React.FC = () => {
   if (victory) {
     return (
       <div className="overlay overlay-victory">
-        <h1>You win!</h1>
+        <h1>游戏胜利</h1>
         <div className="overlay-buttons">
-          <button onClick={mint}>Mint puzzle</button>
-          <button onClick={dismiss}>Keep going</button>
+          <button onClick={mint}>铸造拼图</button>
+          <button onClick={dismiss}>继续</button>
         </div>
       </div>
     );
@@ -50,10 +50,10 @@ const Overlay: React.FC = () => {
   if (defeat) {
     return (
       <div className="overlay overlay-defeat">
-        <h1>Game over!</h1>
+        <h1>游戏结束</h1>
         <div className="overlay-buttons">
-          <button onClick={mint}>Mint puzzle</button>
-          <button onClick={reset}>Try again</button>
+          <button onClick={mint}>铸造拼图</button>
+          <button onClick={reset}>再来一次</button>
         </div>
       </div>
     );
