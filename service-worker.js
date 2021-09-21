@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SimEvolution/precache-manifest.f3bf5d815975abc4f5ee5de972f39940.js"
+  "/SimEvolution/precache-manifest.79893453d741f45614e238629079a5b9.js"
 );
 
 self.addEventListener('message', (event) => {
