@@ -9,6 +9,7 @@
     "compile": "hardhat compile",
     "test":"hardhat test",
     "coverage":"hardhat coverage",
+    "flatten":"hardhat flatten > ./cache/SimEvolution.sol",
     "deploy": "yarn hardhat compile && yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:deploy --wait-num 1 --network rinkeby | tee -a ./logs/deployToLocal.log",
     "verify": "yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:verify --network rinkeby | tee -a ./logs/verifyRinkeby.log",
     "deploy:mainnet": "yarn hardhat compile && yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat Evolution:deploy --wait-num 1 --network mainnet | tee -a ./logs/deployToLocal.log",
