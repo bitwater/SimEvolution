@@ -10,7 +10,13 @@
 
 [视频简介](https://youtu.be/hUgRrgrLUvA)
 
-合约已部署在 Rinkeby [0x49e0e90064256a92afca34c513925ef3a14026c7](https://rinkeby.etherscan.io/address/0x49e0e90064256a92afca34c513925ef3a14026c7)，Polygon [0x842a3fba4db1fa8dac21eb1fd0b2760e89512606](https://polygonscan.com/address/0x842a3fba4db1fa8dac21eb1fd0b2760e89512606)，待项目更成熟后在主网部署
+#### 合约地址 
+
+Rinkeby [0x49e0e90064256a92afca34c513925ef3a14026c7](https://rinkeby.etherscan.io/address/0x49e0e90064256a92afca34c513925ef3a14026c7)
+
+Polygon [0x842a3fba4db1fa8dac21eb1fd0b2760e89512606](https://polygonscan.com/address/0x842a3fba4db1fa8dac21eb1fd0b2760e89512606)
+
+待项目更成熟后在主网部署
 
 
 ## 创作理念
