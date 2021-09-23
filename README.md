@@ -1,12 +1,22 @@
 <h1 align="center">模拟演化 Sim Evolution (Alpha)</h1>
 
 ## 简介
-模拟演化是一个基于区块链的NFT游戏，将各层次上的事物随机生成数据，铸造成演化拼图NFT，尺度从原子到元宇宙，时间从远古到现代，构成模拟演化全景。目前是一个兴趣导向的实验性项目，也是参加元宇宙集训营的课程项目，[Demo](https://bitwater.github.io/SimEvolution)
+模拟演化是一个基于区块链的NFT游戏，将各层次上的事物随机生成数据，铸造成演化拼图NFT，尺度从原子到元宇宙，时间从远古到现代，体验演化之旅。目前是一个兴趣导向的实验性项目，也是参加元宇宙集训营的课程项目
+
+## 链接
+[在 OpenSea 上浏览](https://opensea.io/collection/simevolution)
+
+[演化2048 Demo](https://bitwater.github.io/SimEvolution/)
+
+[视频简介](https://youtu.be/hUgRrgrLUvA)
+
+合约已部署在 Rinkeby [0x49e0e90064256a92afca34c513925ef3a14026c7](https://rinkeby.etherscan.io/address/0x49e0e90064256a92afca34c513925ef3a14026c7)，Polygon [0x842a3fba4db1fa8dac21eb1fd0b2760e89512606](https://polygonscan.com/address/0x842a3fba4db1fa8dac21eb1fd0b2760e89512606)，待项目更成熟后在主网部署
+
 
 ## 创作理念
 游戏创意和设计深受 Sid Meier's Civilization, Maxis Spore 启发，生物、科技和文明演化在电子游戏中是如何设计和展现的。元数据设计和合约开发深受 Dom Hofmann's Loot Project, zeth's Settlements 启发，如何用极简的设计构建一个自下而上和社区驱动的NFT游戏
 
-现实世界根据尺度大小是分成多个层次的，元数据选取了原子、分子、细胞、生物、语言、文明、科学、工业、信息、元宇宙各层次上具有代表性的概念、科技或事物，每一个层次随机生成一个属性数据，组合成Metadata，铸造成一枚演化拼图NFT，[在 OpenSea 上浏览](https://testnets.opensea.io/collection/simevolution)
+现实世界根据尺度大小是分成多个层次的，元数据选取了原子、分子、细胞、生物、语言、文明、科学、工业、信息、元宇宙各层次上具有代表性的概念、科技或事物，每一个层次随机生成一个属性数据，组合成 Metadata，铸造成一枚演化拼图NFT
 
 ![Evolution Puzzle Demo](./images/evolution-puzzle-demo.png)
 
